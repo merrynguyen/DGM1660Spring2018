@@ -1,9 +1,10 @@
 //Maya ASCII 2017ff05 scene
-//Name: Prop1.ma
-//Last modified: Tue, Feb 06, 2018 12:32:16 PM
+//Name: Prop1MerryN.ma
+//Last modified: Tue, Feb 06, 2018 12:32:13 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
+fileInfo "exportedFrom" "C:/Users/10807196/Desktop/DGM1660Spring2018/Prop1.ma";
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2017";
 fileInfo "version" "2017";
@@ -2056,4 +2057,4 @@ connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
-// End of Prop1.ma
+// End of Prop1MerryN.ma
