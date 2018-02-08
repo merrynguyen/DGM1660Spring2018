@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: FarmersMarketHallway.ma
-//Last modified: Thu, Feb 08, 2018 02:17:29 PM
+//Last modified: Thu, Feb 08, 2018 02:16:43 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -503,13 +503,13 @@ createNode mesh -n "pSphereShape1" -p "pSphere1";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "persp1";
 	rename -uid "33489D8B-4134-EBC1-9973-36AD49904673";
-	setAttr ".t" -type "double3" 0.94708836643898531 8.9960281744580648 11.809208777223489 ;
-	setAttr ".r" -type "double3" -404.13835272982521 49.3999999992214 9.7746794418986216e-015 ;
+	setAttr ".t" -type "double3" -0.18781053876657094 2.8059831401249116 20.794536122367891 ;
+	setAttr ".r" -type "double3" -366.33835272983418 19.399999999220913 0 ;
 createNode camera -n "persp1Shape" -p "persp1";
 	rename -uid "72D655ED-4F87-5CB5-6AF5-608BCF531697";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 11.300719379841301;
+	setAttr ".coi" 15.214731789187978;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -1814,13 +1814,11 @@ createNode nurbsCurve -n "nurbsCircleShape1" -p "nurbsCircle1";
 		1.1549567047073818e-031 -5.2014625849492209e-016 0 0 0 0 0 0 0 0 0;
 createNode transform -n "extrudedSurface1";
 	rename -uid "0466B079-43B0-5F8D-D0FA-A391E4876574";
-	setAttr ".r" -type "double3" 0 0 -61.399351662280175 ;
 createNode mesh -n "extrudedSurfaceShape1" -p "extrudedSurface1";
 	rename -uid "70A94E3C-4DFF-C7A1-229D-AFBEBE751378";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.1875 0.12143120542168617 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
