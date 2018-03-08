@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: DiagonAlley.ma
-//Last modified: Thu, Mar 08, 2018 01:16:09 PM
+//Last modified: Thu, Mar 08, 2018 01:17:56 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "F3D84EA1-7E4A-C487-7871-30B9423E8FB6";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 58.388741544702278 39.78390247089191 145.30071873406052 ;
-	setAttr ".r" -type "double3" -5.7383527280564124 380.60000000057806 2.1236327391856845e-016 ;
+	setAttr ".t" -type "double3" -7.3491533666646731 28.261041069826199 68.629685240101011 ;
+	setAttr ".r" -type "double3" -18.338352728055021 349.80000000056225 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1D00D0BD-1449-7D33-3824-568CDA169E02";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 38.823814476724984;
-	setAttr ".coi" 161.88656527776141;
+	setAttr ".coi" 75.892670968344476;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -1578,7 +1578,7 @@ createNode mesh -n "pCubeShape5" -p "pCube5";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.50762705504894257 0.25 ;
+	setAttr ".pv" -type "double2" 0.40814827382564545 0.028655868023633957 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
