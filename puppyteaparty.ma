@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: puppyteaparty.ma
-//Last modified: Thu, Mar 29, 2018 09:27:21 PM
+//Last modified: Thu, Mar 29, 2018 09:42:26 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "EE59F6BD-44A4-00C4-DC2B-D08B46585C06";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.9473311322727982 5.7314923367822201 -2.8294341854355016 ;
-	setAttr ".r" -type "double3" 704.06164721817152 -864.99999999895681 0 ;
+	setAttr ".t" -type "double3" 1.7379004468155799 7.3335670539574114 -19.877828317600308 ;
+	setAttr ".r" -type "double3" 711.86164721816897 -909.79999999894994 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "938C26A6-4501-29F2-4008-7CB254C9D41E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 5.4400422767409866;
+	setAttr ".coi" 21.869460811306489;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
