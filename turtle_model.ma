@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: turtle_model.ma
-//Last modified: Thu, Apr 05, 2018 02:04:39 PM
+//Last modified: Thu, Apr 05, 2018 02:15:00 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "1.4.2.3";
@@ -16,8 +16,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "6599F4CE-42CD-8B3B-9C73-5A9FBD293DC0";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.8094743987602007 -0.0077144226212233491 17.386550436959325 ;
-	setAttr ".r" -type "double3" 4.2000000000002657 -342.80000000002832 0 ;
+	setAttr ".t" -type "double3" 26.074407765497238 13.342733722924711 42.97949872462177 ;
+	setAttr ".r" -type "double3" -13.80000000000015 -325.60000000002702 -9.6367187305113905e-016 ;
 	setAttr ".rp" -type "double3" 1.7763568394002505e-015 1.9984014443252818e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 7.8081648764973607e-015 -1.0145679895697499e-014 
 		-9.8383212452272305e-015 ;
@@ -25,7 +25,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "29DA8EC2-41AD-98E6-5F34-869AD3939064";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 16.062447188504795;
+	setAttr ".coi" 51.037131627504628;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -9360,7 +9360,7 @@ createNode mesh -n "r_leg_geoShape" -p "r_leg_geo";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.85000000000000009 0.9 ;
+	setAttr ".pv" -type "double2" 0.51588693261146545 0.50146007537841797 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
