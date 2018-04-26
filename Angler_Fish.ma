@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Angler_Fish.ma
-//Last modified: Thu, Apr 26, 2018 11:38:17 AM
+//Last modified: Thu, Apr 26, 2018 11:38:45 AM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,15 +13,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "C4ADF3F6-B648-4C75-DEE1-8986F2734256";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 7.501313435793314 7.9536719717787774 -6.2961536606313295 ;
-	setAttr ".r" -type "double3" -27.338352729277908 146.19999999975096 0 ;
+	setAttr ".t" -type "double3" 14.34556247174177 5.7739324015375626 6.74011479727164 ;
+	setAttr ".r" -type "double3" -11.138352729277235 65.799999999746703 0 ;
 	setAttr ".rp" -type "double3" 0 -8.8817841970012523e-016 0 ;
 	setAttr ".rpt" -type "double3" -2.171199020418024e-016 1.1810039362248957e-016 6.2499162203975373e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "37F16066-BD40-A1EC-4B3B-45BD5DF631F6";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 10.372573208274872;
+	setAttr ".coi" 13.375202318113253;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
